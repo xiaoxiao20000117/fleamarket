@@ -1,0 +1,24 @@
+server:
+  port: 8002
+spring:
+  datasource:
+    #      有的mysql如5.0 下面必须改成com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:13306/fleamarket?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
+    username: root
+    password: 'ccx263248'
+
+  application:
+    name: goodsProvider
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+
+mybatis:
+  mapperLocations: classpath:com.tedu.fleamarket.mapper/*.xml
+
+logging:
+  file :
+    path: ./logs
+  level:
+    com.tedu.fleamarket.mapper: debug

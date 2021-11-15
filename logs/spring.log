@@ -1,0 +1,63 @@
+2021-10-14 12:39:31.589  INFO 16612 --- [main] c.e.fleamarket.HistoryKindApplication    : No active profile set, falling back to default profiles: default
+2021-10-14 12:39:32.483  INFO 16612 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d3eacc0e-e89e-3695-a688-8c6507f64d47
+2021-10-14 12:39:32.831  INFO 16612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8003 (http)
+2021-10-14 12:39:32.840  INFO 16612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-14 12:39:32.840  INFO 16612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-10-14 12:39:32.974  INFO 16612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-14 12:39:32.974  INFO 16612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1368 ms
+2021-10-14 12:39:33.495  WARN 16612 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-10-14 12:39:33.495  INFO 16612 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-14 12:39:33.498  WARN 16612 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-10-14 12:39:33.498  INFO 16612 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-14 12:39:33.588  INFO 16612 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-14 12:39:34.561  INFO 16612 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-10-14 12:39:35.847  INFO 16612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8003 (http) with context path ''
+2021-10-14 12:39:35.856  INFO 16612 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP historyKindProvider 10.100.144.51:8003 register finished
+2021-10-14 12:39:36.744  INFO 16612 --- [main] c.e.fleamarket.HistoryKindApplication    : Started HistoryKindApplication in 7.777 seconds (JVM running for 9.383)
+2021-10-14 12:39:56.901  INFO 13096 --- [main] com.example.fleamarket.GoodsApplication  : No active profile set, falling back to default profiles: default
+2021-10-14 12:39:57.756  INFO 13096 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2f7a74e4-e03e-333c-b0f5-ba8bcaa74260
+2021-10-14 12:39:57.934  INFO 13096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2021-10-14 12:39:57.939  INFO 13096 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-14 12:39:57.940  INFO 13096 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-10-14 12:39:58.043  INFO 13096 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-14 12:39:58.043  INFO 13096 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1129 ms
+2021-10-14 12:39:58.465  WARN 13096 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-10-14 12:39:58.466  INFO 13096 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-14 12:39:58.469  WARN 13096 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-10-14 12:39:58.469  INFO 13096 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-14 12:39:58.559  INFO 13096 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-14 12:39:59.842  INFO 13096 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-10-14 12:40:01.244  INFO 13096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2021-10-14 12:40:01.252  INFO 13096 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP goodsProvider 10.100.144.51:8002 register finished
+2021-10-14 12:40:02.138  INFO 13096 --- [main] com.example.fleamarket.GoodsApplication  : Started GoodsApplication in 7.837 seconds (JVM running for 9.916)
+2021-10-14 12:40:08.978  INFO 18396 --- [main] com.example.fleamarket.UserApplication   : No active profile set, falling back to default profiles: default
+2021-10-14 12:40:09.877  INFO 18396 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c7f84657-b1f0-3a6a-93de-124dd9841697
+2021-10-14 12:40:10.057  INFO 18396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2021-10-14 12:40:10.063  INFO 18396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-14 12:40:10.063  INFO 18396 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-10-14 12:40:10.167  INFO 18396 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-14 12:40:10.168  INFO 18396 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1178 ms
+2021-10-14 12:40:10.616  WARN 18396 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-10-14 12:40:10.616  INFO 18396 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-14 12:40:10.619  WARN 18396 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-10-14 12:40:10.619  INFO 18396 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-14 12:40:10.706  INFO 18396 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-14 12:40:11.680  INFO 18396 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-10-14 12:40:12.906  INFO 18396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2021-10-14 12:40:12.915  INFO 18396 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP userProvider 10.100.144.51:8001 register finished
+2021-10-14 12:40:13.801  INFO 18396 --- [main] com.example.fleamarket.UserApplication   : Started UserApplication in 7.322 seconds (JVM running for 8.907)
+2021-10-14 12:43:13.743  INFO 13096 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-14 12:43:13.743  INFO 13096 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-14 12:43:13.751  INFO 13096 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-10-14 12:43:13.870  INFO 13096 --- [http-nio-8002-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-14 12:43:14.167  INFO 13096 --- [http-nio-8002-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-14 12:43:29.587  INFO 18396 --- [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-14 12:43:29.587  INFO 18396 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-14 12:43:29.594  INFO 18396 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-10-14 12:43:29.635  INFO 18396 --- [http-nio-8001-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-14 12:43:29.724  INFO 18396 --- [http-nio-8001-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-14 12:43:58.034  INFO 16612 --- [http-nio-8003-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-14 12:43:58.035  INFO 16612 --- [http-nio-8003-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-14 12:43:58.043  INFO 16612 --- [http-nio-8003-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-10-14 12:43:58.085  INFO 16612 --- [http-nio-8003-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-14 12:43:58.182  INFO 16612 --- [http-nio-8003-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.

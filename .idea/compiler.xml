@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user" />
+        <module name="good" />
+        <module name="gateway" />
+        <module name="histotyKind" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gateway" target="8" />
+      <module name="good" target="8" />
+      <module name="goods" target="8" />
+      <module name="histotyKind" target="8" />
+      <module name="parent" target="1.8" />
+      <module name="user" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gateway" options="-parameters" />
+      <module name="good" options="-parameters" />
+      <module name="goods" options="-parameters" />
+      <module name="histotyKind" options="-parameters" />
+      <module name="user" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,39 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+    gateway:
+      discovery:
+        locator:
+          enabled: true  #让gateway发现nacos中的微服务
+      routes:
+        - id: goodsService     #商品配置
+          uri: lb://goodsProvider   # lb 从注册中心获取服务 并遵循负载均衡策略
+          # 断言
+          predicates:
+            - Path=/goodsApi/**   # 请求路径满足指定规则
+          filters: #过滤器
+            - StripPrefix=1  #截取路径位数 去掉一层路径
+
+        - id: userService     #用户管理员配置
+          uri: lb://userProvider   # lb 从注册中心获取服务 并遵循负载均衡策略
+          # 断言
+          predicates:
+            - Path=/userApi/**   # 请求路径满足指定规则
+          filters: #过滤器
+            - StripPrefix=1  #截取路径位数 去掉一层路径
+
+        - id: historyKindService       #订单历史种类配置
+          uri: lb://historyKindProvider   # lb 从注册中心获取服务 并遵循负载均衡策略
+          # 断言
+          predicates:
+            - Path=/historyKindApi/**   # 请求路径满足指定规则
+          filters: #过滤器
+            - StripPrefix=1  #截取路径位数 去掉一层路径
